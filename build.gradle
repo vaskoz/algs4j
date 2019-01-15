@@ -23,11 +23,11 @@ repositories {
     mavenCentral()
 }
 
-sourceCompatibility = 1.11
+sourceCompatibility = 1.12
 //targetCompatibility = 1.9 // defaults to 'sourceCompatibility'
 
 // In this section you declare the dependencies for your production and test code
-def junitVersion = "5.2.0"
+def junitVersion = "5.3.2"
 dependencies {
     // JUnit Jupiter API and TestEngine implementation
     testCompile("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
